@@ -12,6 +12,7 @@ You can quickly and easily generate a README file by using a command-line applic
   - [Usage](#usage)
   - [Tests](#tests)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Video](#video)
   - [Links](#links)
 - [My process](#my-process)
@@ -41,7 +42,13 @@ Users should be able to:
 - choose a license from the question list of license.
 - click the license badge at the top of the generated README file or license link in the license section of README file if you choose a license.
 
+### Screenshot
+
+![](./assets/images/Professional-README-Generator.png)
+
 ### Video
+
+- Video link: [https://drive.google.com/file/d/1z8N8uxMNyLIEZSeYGOtwG6icuzZDdNsB/view](https://drive.google.com/file/d/1z8N8uxMNyLIEZSeYGOtwG6icuzZDdNsB/view)
 - 
 
 ### Links

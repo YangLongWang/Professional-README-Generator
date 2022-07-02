@@ -1,7 +1,7 @@
-# Generate README file
+# README Generator
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 ## Description
-according to question to enter project's content, and then create README.md
+according to the questions to enter project's content, and then create README.md
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,15 +10,15 @@ according to question to enter project's content, and then create README.md
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-it can't show on the website, so clone it from github to your own local machine
+it doesn't show on the webpage, so clone it from github to your own local machine
 ## Usage
-in terminal to enter 'node index.js'
+in terminal enter 'node index.js'
 ## License
 - The application is covered under [MIT License](https://opensource.org/licenses/MIT)
 ## Contributing
 - Longyang Wang
 ## Tests
-clone it from github to your local machine, and enter 'node index.js' in terminal
+in terminal enter 'node index.js'
 ## Questions
 If you have some questions feel free to contact me
 - Github - [Longyang Wang](https://github.com/YangLongWang)
