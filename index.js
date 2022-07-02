@@ -85,9 +85,10 @@ const questions = [
         }
     },
     {
-        type: 'input',
+        type: 'rawlist',
         name: 'license',
         message: 'Please choose a license from the following list. (Required)',
+        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'Mozilla Public License 2.0', 'None'],
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -140,9 +141,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/README.md', fileName, err => {
+        fs.writeFile('./dist/README.md', data, err => {
             if (err) {
                 reject(err);
                 return;
@@ -173,6 +174,7 @@ init()
     })
     .then(contentData => {
         console.log(contentData);
+        console.log(typeof contentData);
         return writeToFile(contentData);
     })
     .catch(err => {
@@ -187,7 +189,7 @@ const mockData = {
     description: 'You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.',
     installation: "Because this is a Node.js application that runs from a machine and not a browser, I can't deploy this to GitHub pages. If anyone ever wants to look at the application, you have to clone it to your own local machine and run it from there.",
     usage: 'The application will be invoked by using the following command: node index.js',
-    license: ['MIT License'],
+    license: 'MIT License',
     contribution: 'Longyang Wang',
     tests: 'Clone it to your own local machine and enter node index.js.',
     email: 'joey674901205@gmail.com'
