@@ -169,28 +169,12 @@ function init() {
 // Function call to initialize app
 init()
     .then(projectData => {
-        // return generateMarkdown(projectData);
-        return generateMarkdown(mockData);
+        return generateMarkdown(projectData);
     })
     .then(contentData => {
-        console.log(contentData);
-        console.log(typeof contentData);
         return writeToFile(contentData);
     })
     .catch(err => {
         console.log(err);
     })
 
-
-const mockData = {
-    name: 'Longyang Wang',
-    github: 'YangLongWang',
-    title: 'Generate README Generator',
-    description: 'You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.',
-    installation: "Because this is a Node.js application that runs from a machine and not a browser, I can't deploy this to GitHub pages. If anyone ever wants to look at the application, you have to clone it to your own local machine and run it from there.",
-    usage: 'The application will be invoked by using the following command: node index.js',
-    license: 'MIT License',
-    contribution: 'Longyang Wang',
-    tests: 'Clone it to your own local machine and enter node index.js.',
-    email: 'joey674901205@gmail.com'
-}
