@@ -49,7 +49,6 @@ Users should be able to:
 ### Video
 
 - Video link: [https://drive.google.com/file/d/1z8N8uxMNyLIEZSeYGOtwG6icuzZDdNsB/view](https://drive.google.com/file/d/1z8N8uxMNyLIEZSeYGOtwG6icuzZDdNsB/view)
-- 
 
 ### Links
 
